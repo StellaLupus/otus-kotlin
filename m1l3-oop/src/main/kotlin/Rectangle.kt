@@ -1,4 +1,4 @@
-open class Rectangle(open val width: Int, val height: Int): Figure() {
+open class Rectangle(open val width: Int, val height: Int): Figure {
     override fun area() = width * height
 
     override fun toString(): String {
